@@ -1,0 +1,23 @@
+<ion-view view-title="MÚSICAS">
+  <ion-content>
+
+    <div class="list">
+      <div class="item" ng-repeat="path in paths">
+<!--
+        <button  ng-click="play(path)" ng-hide="{{$index==0}}">
+          <i class="icon ion-play">MUSICA {{$index}}</i>
+
+        </button>
+-->
+        <audio controls >
+          <source  ng-src="{{path}}"   type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>

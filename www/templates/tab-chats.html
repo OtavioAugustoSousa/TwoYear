@@ -1,0 +1,10 @@
+<ion-view view-title="FOTOS">
+  <ion-content class="app">
+    <ion-list>
+
+        <img ng-repeat="path in paths" ng-hide="$index == '0'" ng-src="{{path}}" >{{$index}}</img>
+
+
+    </ion-list>
+  </ion-content>
+</ion-view>
