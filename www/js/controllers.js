@@ -4,7 +4,7 @@ angular.module('starter.controllers', [])
 
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.paths=[];
-  for(var i=1; i < 138; i++){
+  for(var i=1; i < 127; i++){
     $scope.paths[i]="img/fotos/"+i+".jpg";
   }
 
